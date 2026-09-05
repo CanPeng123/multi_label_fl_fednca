@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Experiment outputs
+logs/
+
+# Model/download caches
+.torch/
+.cache/
+
+# Datasets (not shipped with the repo)
+datasets/
+
+# torch distributed elastic rendezvous temp dirs (leftover from interrupted runs)
+torchelastic_*/
+torchinductor_*/
